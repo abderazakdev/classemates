@@ -1083,7 +1083,7 @@
      networks cannot, and then a TURN relay is required. Make a free
      account at https://www.metered.ca (Open Relay, 20 GB/month free), open
      its dashboard, and put your app name and API key here — that is all. */
-  const METERED_TURN = { appName: "", apiKey: "" };
+  const METERED_TURN = { appName: "classemates.metered.live", apiKey: "7c5_4H2sQonhIY5asbsRfpuceJA1OW6YgsVKs1ECWbbV5dsK" };
 
   const livePeers = {};            // host: studentId -> peer record | viewer: "host" -> peer record
   const liveTiles = {};            // host only: studentId -> tile
